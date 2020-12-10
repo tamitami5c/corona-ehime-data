@@ -48,7 +48,10 @@ def main():
     print("日付(最後):",last_date)
 
     def daterange(start_date,end_date):
-        for n in range(int((end_date-start_date).days)):
+        """
+        start_date(含む)からend_date(含む)まで
+        """
+        for n in range(int((end_date-start_date).days)+1):
             yield start_date+datetime.timedelta(n)
     result=[]
     for d in daterange(first_date,last_date):
