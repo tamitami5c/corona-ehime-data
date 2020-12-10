@@ -1,0 +1,1 @@
+# corona-ehime-data
