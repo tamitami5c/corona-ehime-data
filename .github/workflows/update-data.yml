@@ -6,7 +6,7 @@ on:
 
 jobs:
   my-job:
-    name: Update nara data
+    name: Update ehime data
     runs-on: ubuntu-latest
     steps:
     - name: checkout
