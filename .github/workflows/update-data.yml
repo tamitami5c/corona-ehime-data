@@ -2,7 +2,7 @@ name: update ehime_data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 5,9,12,15 * * *"
 
 jobs:
   my-job:
@@ -28,4 +28,4 @@ jobs:
         git config --global user.email "68597117+tamitami5c@users.noreply.github.com"
         git add data/ehime_data.json
         git commit -m "[BOT]データ更新" || true
-        git push origin main:gh-pages || true
+        git push origin main || true
