@@ -29,4 +29,4 @@ jobs:
         git checkout gh-pages
         git add data/ehime_data.json
         git commit -m "[BOT]データ更新" || true
-        git push origin gh-pages || true
+        git push -u origin gh-pages || true
