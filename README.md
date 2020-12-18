@@ -23,9 +23,9 @@
 
 |　データ種類 | 更新バッジ|
 |-|-|
-|患者データ| |
-| テストデータ| ![update test data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20test%20data/badge.svg)|
-|　陽性者数データ | |
+|患者データ|![update patient data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20patient%20data/badge.svg) |
+|テストデータ| ![update test data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20test%20data/badge.svg)|
+|陽性者数データ | |
 
 ## その他
 
