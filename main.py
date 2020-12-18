@@ -1,3 +1,4 @@
+import os
 import json
 import csv
 import datetime
@@ -52,8 +53,8 @@ def main():
         "data":result
     }
     print(data)
-
-    with open("ehime_data.json","w") as f:
+    os.makedirs("data",exist_ok=True)
+    with open("data/ehime_data.json","w") as f:
         json.dump(data,f,indent=4)
 
 if __name__ == "__main__":

@@ -1,3 +1,4 @@
+import os
 import csv
 import json
 import datetime
@@ -29,7 +30,8 @@ def fetch_and_save_test_data():
         "last_updated":last_updated.isoformat(),
         "data":d
     }
-    with open("test_data.json","w") as f:
+    os.makedirs("data",exist_ok=True)
+    with open("data/test_data.json","w") as f:
         json.dump(data,f,indent=4,ensure_ascii=False)
 
 
