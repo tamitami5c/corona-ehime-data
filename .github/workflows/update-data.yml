@@ -26,6 +26,7 @@ jobs:
       run: |
         git config --global user.name "[BOT]tamitami"
         git config --global user.email "68597117+tamitami5c@users.noreply.github.com"
+        git checkout gh-pages
         git add data/ehime_data.json
         git commit -m "[BOT]データ更新" || true
         git push origin gh-pages || true
