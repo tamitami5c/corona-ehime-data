@@ -18,6 +18,15 @@
 | gh-pages | データを更新しいくブランチ|
 
 
+## 更新
+
+
+|　データ種類 | 更新バッジ|
+|-|-|
+|患者データ| |
+| テストデータ| ![update test data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20test%20data/badge.svg)|
+|　陽性者数データ | |
+
 ## その他
 
 愛媛県の陽性者数のデータ
