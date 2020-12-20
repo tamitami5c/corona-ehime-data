@@ -19,9 +19,3 @@
 |患者データ|![update patient data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20patient%20data/badge.svg) |
 |テストデータ| ![update test data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20test%20data/badge.svg)|
 |陽性者数データ |![update ehime_data](https://github.com/tamitami5c/corona-ehime-data/workflows/update%20ehime_data/badge.svg) |
-
-## その他
-
-愛媛県の陽性者数のデータ
-
-https://tamitami5c.github.io/corona-ehime-data/ehime_data.json
