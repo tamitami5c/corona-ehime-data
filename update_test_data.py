@@ -16,7 +16,7 @@ def fetch_and_save_test_data():
         
         for  row in reader:
             date=row[0]
-            num_tests=row[4]
+            num_tests=int(row[4])
 
             d.append({
                 "実施_年月日":date,
